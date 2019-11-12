@@ -1,0 +1,4 @@
+2019-11-12 12:53:25,265 DEBUG c.u.d.OopsDemo [main] Hello from Log4j 2
+2019-11-12 12:53:25,267 INFO c.u.d.OopsDemo [main] test
+2019-11-12 12:55:38,139 DEBUG c.u.d.OopsDemo [main] Hello from Log4j 2
+2019-11-12 12:55:38,147 INFO c.u.d.OopsDemo [main] test

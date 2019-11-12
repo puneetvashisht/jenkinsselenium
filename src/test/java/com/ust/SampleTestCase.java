@@ -6,6 +6,7 @@ import org.junit.AfterClass;
 //import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+import org.junit.runner.RunWith;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 
@@ -27,6 +28,17 @@ public class SampleTestCase {
 //		System.setProperty("webdriver.chrome.driver","/Users/puneetvashisht/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar");
 	
 		driver.get("http://google.com");
+		System.out.println(driver.getTitle());
+		assertTrue(true);
+	}
+	
+
+	@Test
+	public void testfb() {
+		
+//		System.setProperty("webdriver.chrome.driver","/Users/puneetvashisht/.m2/repository/org/seleniumhq/selenium/selenium-chrome-driver/3.14.0/selenium-chrome-driver-3.14.0.jar");
+	
+		driver.get("http://facebook.com");
 		System.out.println(driver.getTitle());
 		assertTrue(true);
 	}
