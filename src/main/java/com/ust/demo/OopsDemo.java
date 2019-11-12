@@ -9,12 +9,24 @@ public class OopsDemo {
 		
 //		System.out.println("Oops Demo");
 		
-		logger.debug("Hello from Log4j 2");
 		
-		logger.info("test");
+		for(int i=0;i<100;i++){
+			logger.debug("Hello from Log4j 2");
+			
+			logger.info("test");
+		}
 		
 		
+		try {
+            System.out.println(getData());
+        } catch (IllegalArgumentException e) {
+            logger.error(e);
+        }
 
 	}
+	
+	 static int getData() throws IllegalArgumentException {
+	        throw new IllegalArgumentException("Sorry IllegalArgumentException!");
+	    }
 
 }

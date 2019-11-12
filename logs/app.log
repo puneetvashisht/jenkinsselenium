@@ -1,4 +1,12 @@
-2019-11-12 12:53:25,265 DEBUG c.u.d.OopsDemo [main] Hello from Log4j 2
-2019-11-12 12:53:25,267 INFO c.u.d.OopsDemo [main] test
-2019-11-12 12:55:38,139 DEBUG c.u.d.OopsDemo [main] Hello from Log4j 2
-2019-11-12 12:55:38,147 INFO c.u.d.OopsDemo [main] test
+2019-11-12 13:12:26,643 INFO c.u.d.OopsDemo [main] test
+2019-11-12 13:12:26,658 DEBUG c.u.d.OopsDemo [main] Hello from Log4j 2
+2019-11-12 13:12:26,658 INFO c.u.d.OopsDemo [main] test
+2019-11-12 13:12:26,658 DEBUG c.u.d.OopsDemo [main] Hello from Log4j 2
+2019-11-12 13:12:26,658 INFO c.u.d.OopsDemo [main] test
+2019-11-12 13:12:26,658 DEBUG c.u.d.OopsDemo [main] Hello from Log4j 2
+2019-11-12 13:12:26,658 INFO c.u.d.OopsDemo [main] test
+2019-11-12 13:12:26,658 DEBUG c.u.d.OopsDemo [main] Hello from Log4j 2
+2019-11-12 13:12:26,659 INFO c.u.d.OopsDemo [main] test
+2019-11-12 13:12:26,659 DEBUG c.u.d.OopsDemo [main] Hello from Log4j 2
+2019-11-12 13:12:26,659 INFO c.u.d.OopsDemo [main] test
+2019-11-12 13:12:26,660 ERROR c.u.d.OopsDemo [main] java.lang.IllegalArgumentException: Sorry IllegalArgumentException!
